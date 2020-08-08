@@ -12,12 +12,12 @@ nc (netcat)
 
 ## Installation
 * Clone the repository to your local machine
-'''
+```
 git clone git@github.com:noUsernamesLef7/portWatch.git
-'''
+```
 * Edit the script using a text editor, and set the $host, $port, $frequency, and $duration variables.
 * Ensure the script is marked as executable
-'''
+```
 chmod +x portWatch.sh
-'''
+```
 * Call the script from inside another script (or however you want to use it)
