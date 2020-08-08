@@ -2,13 +2,12 @@
 # A script that checks if a host is listening on a port every few seconds for a set duration
 # If listening, it exits with exit code 0.
 # If it reaches the duration value, it will exit with exit code 1
-# I'm using this specifically to see if my Nook is listening for adb connections
 
-# Host
-host=192.168.1.17
+# Target Host IP address
+host=192.168.1.1
 
-# Port
-port=5555
+# Target Port 
+port=22
 
 # Frequency, in seconds, between checks
 frequency=10
